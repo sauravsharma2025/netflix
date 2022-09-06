@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+    padding:0px ;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialia
+}
+.svg-icon-netflix-logo{
+    width: 167px;
+    height: 45px;
+    vertical-align: middle;
+    fill: #E50914;
+    line-height: 90px;
+    margin: 20px;
+
+}
+.login-form{
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    z-index: 1;
+    width: 100%;
+    max-width: 450px;
+    padding: 60px 68px 40px;
+    background-color: rgba(0,0,0,.75);
+}
+
+.login-wrapper{
+    background-color:black;
+    color: #fff;
+    display: block;
+    position:absolute;
+    z-index: 0;
+    overflow:hidden;
+    left: 430px;
+    top: 100px;
+    background-color: transparent;
+    min-height: 660px;
+    
+}
+.main-wrapper{
+    z-index: -1;
+    position: relative;
+    background-size: cover;
+   
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    
+}
+.header-part{
+    z-index: 2;
+    position:absolute;
+    top: 5px;
+}
+.login-form h3{
+    color:blac;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.login-form input{
+    padding-bottom: 16px;
+    position: relative;
+    background-color: #333;
+    margin: 10px;
+    padding: 16px 20px 0;
+    border-radius: 4px;
+    line-height: 34px;
+    box-shadow: none;
+    border: none;
+}
+#sign-in{
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0 12px;
+    background-color: #e50914;
+    color: #fff;
+    border:0;
+    height: 37px;
+}
+.login-form-bottom{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.bottom-part{
+    display: inline;
+    color: #737373;
+    
+}
+.line-bottom{
+    height: 34px;
+}
+.line-bottomsec{
+    font-size: 13px;
+    color:#8c8c8c;
+}
+.login-form a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+}
+.footer-top{
+    padding: 0;
+    margin: 0 0 30px;
+}
+.footer-link-list{
+    max-width: 1000px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.footer-link-list ul{
+    display: block;
+    list-style-type: disc;
+    color: #737373;
+    
+
+}
+.footer-link-list li{
+    list-style: none;
+    margin-left: 0;
+    
+}
+.footer-link-item{
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 16px;
+    display: inline-block;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+  
+}
+.footer-wrapper{
+    background: rgba(0,0,0,.75);
+    margin-top: 0;
+    padding-bottom: 20px;
+    color:#fff;
+    position:absolute;
+    width: 100%;
+   z-index: 1;
+   overflow: hidden;
+   display: block;
+   background-size: cover;
+   top: 855px;
+   height: 300px;
+   
+}
+.footer-signin{
+    margin-left:200px;
+    padding: 30px;
+}
+
